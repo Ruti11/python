@@ -1,0 +1,6 @@
+<form method="post" action="/autenticar/">
+    {% csrf_token %}
+    <input type="text" name="usuario">
+    <input type="password" name="password">
+    <input type="submit" value="Acceder">
+</form>
